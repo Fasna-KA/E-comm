@@ -7,9 +7,9 @@ import {addItem, delItem} from '../redux/actions/index'
 
 const ProductDetail = () => {
     const [cartBtn, setCartBtn] = useState("Add to Cart")
-    {/* Now we need a product id which is pass from the product page. */}
+    // Now we need a product id which is pass from the product page. 
     const proid = useParams();
-    const proDetail = DATA.filter(x=>x.id == proid.id)
+    const proDetail = DATA.filter(x=>x.id = proid.id)
     const product = proDetail[0];
     console.log(product);
 
