@@ -21,16 +21,8 @@ const Header = () => {
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/products">Product</NavLink>
                             </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/about">About</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/contact">Contact</NavLink>
-                            </li>
-                            
-                            
                         </ul>
-                    <NavLink className="navbar-brand mx-auto fw-bold" to="/">APPLE MART</NavLink>
+                    <NavLink className="navbar-brand mx-auto fw-bold" to="/">iSHOP</NavLink>
                     <Login/>
                     <Signup/>
                     <CartBtn/>
